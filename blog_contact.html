@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me contacter</title>
+</head>
+<body>
+        
+
+    <h1>Me contacter</h1>
+    <hr>
+        <fieldset>
+            <legend>Contact</legend>
+        <form>
+            <label for="first_name">Nom :</label>
+            <input id="first_name" type="text" name="nom" required>
+                <br>
+
+            <label for="email">Email :</label>
+            <input id="email" type="email" name="email" required>
+                <br>
+
+            <label for="phone">Téléphone :</label>
+            <input id="phone" type="tel" name="phone_number">
+                <br>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" required>
+            </textarea>
+                <br>
+
+            <label for="gender">Genre :</label>
+            <input id="gender" type="radio" name="message" value="Homme"> Homme
+            <input id="gender" type="radio" name="message" value="Femme"> Femme
+            <input id="gender" type="radio" name="message" value="Autre"> Autre
+                <br>
+
+            <label for="interest">Intérêts :</label>
+            <input id="interest" type="checkbox"> Développement Web
+            <input id="interest" type="checkbox"> Développement Mobile
+                <br>
+                
+            <label for="pays">Pays</label>
+            <select id="pays" name="pays">
+                <option></option>
+                <option value="FR">France</option>
+                <option value="BE">Belgique</option>
+                <option value="CH">Suisse</option>
+                <option value="CA">Canada</option>
+                <option value="Other">Autre</option>
+            </select>
+                <br>
+            <input type="submit" value="Envoyer">
+        </fieldset>
+            <br>
+            <hr>
+        <a href="./page1_accueil.html"><button type="button">Retour</button></a>
+    </form>
+</body>
+</html>
