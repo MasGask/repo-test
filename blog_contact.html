@@ -4,44 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Me contacter</title>
+    <link rel="stylesheet" type="text/css" href="./style_contact.css">
 </head>
 <body>
         
-
     <h1>Me contacter</h1>
     <hr>
+    <br>
+    <br>
         <fieldset>
             <legend>Contact</legend>
         <form>
             <label for="first_name">Nom :</label>
             <input id="first_name" type="text" name="nom" required>
                 <br>
+                <br>
 
             <label for="email">Email :</label>
             <input id="email" type="email" name="email" required>
+                <br>
                 <br>
 
             <label for="phone">Téléphone :</label>
             <input id="phone" type="tel" name="phone_number">
                 <br>
+                <br>
 
             <label for="message">Message :</label>
-            <textarea id="message" name="message" rows="4" required>
+            <textarea id="message" name="message" rows="6" required>
             </textarea>
                 <br>
+                <br>
 
-            <label for="gender">Genre :</label>
-            <input id="gender" type="radio" name="message" value="Homme"> Homme
-            <input id="gender" type="radio" name="message" value="Femme"> Femme
+            <label for="gender">Genre :</label><br><br>
+            <input id="gender" type="radio" name="message" value="Homme"> Homme <br>
+            <input id="gender" type="radio" name="message" value="Femme"> Femme <br>
             <input id="gender" type="radio" name="message" value="Autre"> Autre
                 <br>
+                <br>
 
-            <label for="interest">Intérêts :</label>
+            <label for="interest">Intérêts :</label><br><br>
             <input id="interest" type="checkbox"> Développement Web
+            <br>
             <input id="interest" type="checkbox"> Développement Mobile
                 <br>
+                <br>
                 
-            <label for="pays">Pays</label>
+            <label for="pays">Pays :</label>
             <select id="pays" name="pays">
                 <option></option>
                 <option value="FR">France</option>
@@ -51,8 +60,12 @@
                 <option value="Other">Autre</option>
             </select>
                 <br>
+                <br>
+                <br>                
             <input type="submit" value="Envoyer">
         </fieldset>
+            <br>
+            <br>
             <br>
             <hr>
         <a href="./page1_accueil.html"><button type="button">Retour</button></a>

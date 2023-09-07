@@ -1,0 +1,50 @@
+
+
+body {
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+    background-color: rgb(17, 17, 17);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+button {
+    color: white;
+    font-family: Roboto;
+    font-variant: small-caps;
+    background-color: rgb(48, 48, 48);
+    border-style: double;
+    border-color: rgb(48, 48, 48);
+}
+
+h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-variant: small-caps;
+    font-size: 23px;
+    font-stretch: semi-condensed;
+}
+
+h2 + p + i {
+    color:rgb(189, 192, 209);
+}
+
+p {
+    color:rgb(255, 255, 255) !important;
+}
+
+li {
+    color:rgb(255, 255, 255) !important;
+}
+
+.blog-article {
+    color: rgb(255, 255, 255);
+}
+
+#info {
+    color: white;
+}
+a {
+    color: rgb(91, 168, 231) !important;
+}

@@ -1,0 +1,56 @@
+
+
+body {
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+    background-color: rgb(17, 17, 17);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+fieldset {
+    border: solid 5px rgb(255, 255, 255);  
+    display:inline;
+}
+
+legend {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-variant: small-caps;
+    font-size: 23px;
+    font-stretch: semi-condensed;
+}
+
+form {
+    font-family: roboto;
+    color: rgb(255, 255, 255);
+}
+
+input:last-of-type {
+    color: white;
+    font-family: Roboto;
+    font-variant: small-caps;
+    background-color: rgb(48, 48, 48);
+    border-style: double;
+    border-color: rgb(48, 48, 48);
+    float: left;
+    width: 70px;
+    float: right;
+}
+
+label{
+    float: left;
+    width: 120px;
+}
+
+
+button {
+    color: white;
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+    font-variant: small-caps;
+    background-color: rgb(48, 48, 48);
+    border-style: double;
+    border-color: rgb(48, 48, 48);
+    width:65px;
+}
