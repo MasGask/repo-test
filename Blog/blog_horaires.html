@@ -4,10 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Horaires de ma chaîne Twitch</title>
+    <style>
+        body {
+            font-family: 'Roboto', 'Helvetica', sans-serif;
+            color: white;
+            background-color: rgb(17, 17, 17);
+        }
+
+        table {
+            border-color: rgb(255, 255, 255);
+            border-collapse: collapse;
+            font-size: 20px;
+        }
+
+        .nav-button {
+        color: white;
+        font-family: 'Roboto', 'Helvetica', sans-serif;
+        font-variant: small-caps;
+        background-color: rgb(48, 48, 48);
+        border-style: double;
+        border-color: rgb(48, 48, 48);
+        }
+
+    </style>
 </head>
 <body>
-
+    
     <h1>Mes horaires de diffusion</h1>
+    <nav>
+        <a href="./blog_accueil.html"><button class="nav-button">Blog</button></a>
+        <a href="https://www.twitch.tv/Mas_Gask" target="_blank"><button class="nav-button">Twitch</button></a>
+        <a href="./blog_contact.html"><button class="nav-button">Contact</button></a>
+        <a href="./blog_discord.html"><button class="nav-button">Discord</button></a>
+        <a href="#info_horaires"><button class="nav-button">À propos</button></a>
+    </nav>
+</header>
+<hr>
 
     <table border="1">
         <thead>
@@ -43,6 +75,16 @@
     </table>
     <br>
 
-    <a href="./blog_accueil.html"><button>Retour</button></a>
+    <a href="./blog_accueil.html"><button class="nav-button">Retour</button></a>
+
+    <footer>
+        <br>
+        <br>
+
+        
+        <hr>
+        <p id="info_horaires"> À propos</p>
+
+    </footer>
 </body>
 </html>

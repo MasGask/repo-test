@@ -5,13 +5,17 @@ body {
     background-color: rgb(17, 17, 17);
 }
 
+#header {
+    height: 120px;
+}
+
 h1 {
     color: rgb(255, 255, 255);
 }
 
 .nav-button {
     color: white;
-    font-family: Roboto;
+    font-family: 'Roboto', 'Helvetica', sans-serif;
     font-variant: small-caps;
     background-color: rgb(48, 48, 48);
     border-style: double;
